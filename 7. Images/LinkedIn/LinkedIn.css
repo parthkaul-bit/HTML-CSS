@@ -1,0 +1,25 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(73, 73, 73) ;
+}
+.email{
+    font-size: xx-small;
+    margin-bottom: 0px;
+}
+.input{
+    border: .7px solid;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+.agree{
+    font-size: xx-small;
+}
+.join{
+    color: white;
+    background-color: rgb(45,100,188);
+    font-size: xx-small;
+    text-align: center;
+    padding: 8px 16px;
+    width: 200px;
+    border-radius: 16px;
+}
