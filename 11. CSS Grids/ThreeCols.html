@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grids</title>
+    <style>
+        .first, .second{
+            background-color: lightblue;
+        }
+        .middle{
+            background-color: lightpink;
+        }
+
+        div{
+            display: grid;
+            grid-template-columns: 200px 1fr 75px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p class="first">
+            col1
+        </p>
+        <p class="middle">
+            col2
+        </p>
+        <p class="second">
+            col3
+        </p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjusting Row and Cols Gap</title>
+    <style>
+        .f{
+            background-color: lightblue;
+        }
+        div{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="f">col1</div>
+        <div class="f">col2</div>
+        <div class="f">col3</div>
+        <div class="f">col4</div>
+        <div class="f">col1</div>
+        <div class="f">col2</div>
+        <div class="f">col3</div>
+        <div class="f">col4</div>
+    </div>
+</body>
+</html>
