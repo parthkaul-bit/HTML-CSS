@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three flexboxes</title>
+    <style>
+        .flex{
+            display: flex;
+        }
+        .first{
+            width: 50px;
+            background-color: lightblue;
+        }
+        .second{
+            background-color: lightpink;
+            flex: 1;
+        }
+        .third{
+            background-color: lightblue;
+            width: 75px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="first">
+            item 1
+        </div>
+        <div class="second">
+            item 2
+        </div>
+        <div class="third">
+            item 3
+        </div>
+    </div>
+</body>
+</html>

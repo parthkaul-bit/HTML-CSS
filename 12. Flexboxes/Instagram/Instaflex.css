@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.oliver, .mimi, .rex{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+}
+
+.details{
+    margin-left: 20px;
+    margin-right: 80px;
+    width: 200px;
+}
+
+div{
+    padding: 2px;
+}
+
+.image{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+button{
+    font-weight: bold;
+    background-color: rgb(65,147,238);
+    color:white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
