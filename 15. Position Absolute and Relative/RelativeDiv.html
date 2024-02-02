@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bottom right</title>
+    <style>
+        .bottom-right{
+            position: fixed;
+            background-color: rgb(128,128,128);
+            height: 180px;
+            width: 320px;   
+            bottom: 20px;
+            right: 20px;
+        }
+        .close-button{
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            background-color: black;
+            color: white;
+            font-size: large;
+            top: -20px;
+            left : -20px;
+            border-radius: 60px;
+            height: 45px;
+            width: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .timestamp{
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            background-color: black;
+            color: white;
+            font-size: large;
+            bottom: 10px;
+            right : 10px;
+            height: 25px;
+            width: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body style="height: 3000px;">
+    <div class="bottom-right">
+        <div class="close-button">
+            X
+        </div>
+        <div class="timestamp">
+            0:29
+        </div>
+    </div>
+</body>
+</html>
