@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet With Attachment</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 4px;
+        }
+        .container{
+            display: flex;
+            width: 500px;
+        }
+        .title{
+            font-weight: 600;
+        }
+        .tag{
+            font-weight: 500;
+            color: rgb(95,108,120);
+        }
+        img{
+            object-fit: cover;
+            height: 50px;
+            width: 50px;
+            border-radius: 30px;
+        }
+
+        .attach{
+            display: flex;
+            border: 0.5px solid rgb(217,224,228);
+            border-radius: 16px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        .thumbnail{
+            margin: 0px;
+            height: 90px;
+            width: 100px;
+            background-color: rgb(211,211,211);
+        }
+        .attachment-details{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="dog.avif" alt="">
+        </div>
+        <div class="tweet">
+            <div class="title">supersimple.dev <span class="tag">@SuperSimpleDev</span></div>
+            <div class="body">What is backend web development? A complete overview. New video is up!</div>
+            <div class="attach">
+                <div class="thumbnail"></div>
+                <div class="attachment-details">
+                    <div style="color: rgb(95,108,120);">youtube.com</div>
+                    <div>Backend web development - a complete overview (2021 )</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

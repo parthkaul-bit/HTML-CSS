@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbox of Multiple Mails</title>
+    <style>
+        *{
+            font-family: Arial;
+        }
+
+        .container{
+            margin: 20px;
+            width: fit-content;
+            border: 0.5px bold gray;
+            box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.15);
+            padding: 4px 12px 20px 12px;
+            border-radius: 4px;
+        }
+
+        .title{
+            margin: 10px 0px;
+        }
+        .mail{
+            display: flex;
+            margin-bottom: 20px;
+        }
+        img{
+            border-radius: 30px;
+            height: 60px;
+            width: 60px;
+            object-fit: cover;
+        }
+        .mail-details{
+            margin-left: 20px;
+        }
+
+        .mail-title{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="title" style="color:rgb(153,153,153); margin-bottom:20px ;">
+            ALL INBOXES
+        </div>
+
+        <div class="mail">
+            <div class="profile-pic"><img src="cat.jpg" alt=""></div>
+            <div class="mail-details">
+                <div class="mail-title" style="margin-bottom: 2px;">
+                    <div class="sender" style="font-weight: 600; font-size: 18px;">Chewy Promotions</div>
+                    <div class="time" style="color:rgb(153,153,153);">9:45 PM</div>
+                </div>
+                <div class="mail-subject" style="font-weight: 600; margin-bottom: 2px;">Biggest Sale of the Year!</div>
+                <div class="mail-description" style="color:rgb(153,153,153);">Hey there! We're writing to tell you about our...</div>
+            </div>
+        </div>
+
+        <div class="mail">
+            <div class="profile-pic"><img src="dog.avif" alt=""></div>
+            <div class="mail-details">
+                <div class="mail-title" style="margin-bottom: 2px;">
+                    <div class="sender" style="font-weight: 600; font-size: 18px;">Best Buy</div>
+                    <div class="time" style="color:rgb(153,153,153);">12:32 PM</div>
+                </div>
+                <div class="mail-subject" style="font-weight: 600; margin-bottom: 2px;">Your Best Buy eReceipt</div>
+                <div class="mail-description" style="color:rgb(153,153,153);">Thank you for shopping at Best Buy, here is...</div>
+            </div>
+        </div>
+
+        <div class="mail">
+            <div class="profile-pic"><img src="dog2.jpg" alt=""></div>
+            <div class="mail-details">
+                <div class="mail-title" style="margin-bottom: 2px;">
+                    <div class="sender" style="font-weight: 600; font-size: 18px;">Netflix</div>
+                    <div class="time" style="color:rgb(153,153,153);">9:00 AM</div>
+                </div>
+                <div class="mail-subject" style="font-weight: 600; margin-bottom: 2px;">Here's what's coming soon to Netflix</div>
+                <div class="mail-description" style="color:rgb(153,153,153);">Brand new movies and shows, old favorites...</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
