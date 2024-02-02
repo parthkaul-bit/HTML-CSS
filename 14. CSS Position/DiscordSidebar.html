@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Sidebar</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .sidebar{
+            position: fixed;
+            display: flex;
+            top:0px;
+            bottom: 0px;
+            left: 0px;
+            width: 400px;
+        }
+
+        .profiles{
+            background-color: rgb(32,34,37);
+            width: 100px;
+            padding-top: 20px;
+        }
+
+        .image{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+
+        img{
+            height: 60px;
+            width: 60px;
+            border-radius: 30px;
+            object-fit: cover;
+        }
+        .channels{
+            width: 300px;
+            background-color: rgb(49,49,49);
+        }
+        .channel-name{
+            display: flex;
+            margin-top: 30px;
+            margin-left: 20px;
+            margin-bottom: 30px;
+            justify-content: space-between;
+        }
+        .channel{
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            color: rgb(143,146,150);
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="profiles">
+            <div class="image"><img src="dog.avif" alt=""></div>
+            <div class="image"><img src="dog2.jpg" alt=""></div>
+            <div class="image"><img src="cat.jpg" alt=""></div>
+        </div>
+        <div class="channels">
+            <div class="channel-name">
+                <div style="color: rgb(209,209,209);">
+                    INFO
+                </div>
+                <div style="margin-right: 30px; color: rgb(143,146,150); font-size: 20px;">
+                    +
+                </div>
+        </div>
+            <div class="channel"># new-videos</div>
+            <div class="channel"># updates</div>
+            <div class="channel"># faq</div>
+        </div>
+    </div>
+</body>
+</html>
