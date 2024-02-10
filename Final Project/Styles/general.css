@@ -1,3 +1,7 @@
-*{
+body{
     font-family: Roboto; 
+}
+
+.video-grid{
+    background-color: rgb(249,249,249);
 }
